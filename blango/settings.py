@@ -27,9 +27,9 @@ SECRET_KEY = 'django-insecure--hvp4yjz#i(h6be&nh#+7jp00k(x^0bxe8npvvc!oqs8ewaa$y
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-X_FRAME_OPTIONS = 'ALLOW-FROM ' + os.environ.get('CODIO_HOSTNAME') + '-8000.codio.io'
+# X_FRAME_OPTIONS = 'ALLOW-FROM ' + os.environ.get('CODIO_HOSTNAME') + '-8000.codio.io'
 CSRF_COOKIE_SAMESITE = None
-CSRF_TRUSTED_ORIGINS = ['https://' + os.environ.get('CODIO_HOSTNAME') + '-8000.codio.io']
+# CSRF_TRUSTED_ORIGINS = ['https://' + os.environ.get('CODIO_HOSTNAME') + '-8000.codio.io']
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SAMESITE = 'None'
